@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/background.css" />
+    <link rel="stylesheet" href="css/atom-one-dark.min.css">
+
+
+    <title>My Webpage</title>
+</head>
+
+<body>
+
+
+    <section class="p-5 text-center text-sm-start">
+        <div class="container">
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            Mayavi code for volume plot
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <pre class="language-python">
+<code>
+import numpy as np
+from mayavi import mlab
+mlab.figure(bgcolor=(1, 1, 1))
+
+x, y, z = np.ogrid[-10:10:20j, -10:10:20j, -10:10:20j]
+s = np.sin(x*y*z)/(x*y*z)
+
+src = mlab.pipeline.scalar_field(s)
+vol = mlab.pipeline.volume(src)
+
+# Change the color transfer function
+from tvtk.util import ctf
+c = ctf.save_ctfs(vol._volume_property)
+# print(c)
+c['rgb']=[]
+c['rgb'].append([0.0, 0.0, 0.0, 1.0])
+c['rgb'].append([1.0, 1.0, 0.0, 0.0])
+c['rgb'].append([0.5, 1, 1.0, 1.0])
+# c['alpha'][2][1] = 1.0
+ctf.load_ctfs(c, vol._volume_property)
+# Update the shadow LUT of the volume module.
+vol.update_ctf = True
+lut = vol.module_manager.scalar_lut_manager.lut
+ctf.set_lut(lut,vol._volume_property)
+vol.module_manager.scalar_lut_manager.show_legend = True
+# mlab.scalarbar()
+mlab.show()
+</code>
+                            </pre>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Accordion Item #2
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <pre class="language-cpp">
+<code>
+    setfacl -m u:username:rwx myfolder
+</code>
+Parallel copy
+<code>
+    ls -1 /main/files | xargs -I {} -P 5 -n 1 rsync -avh /main/files/{} /main/filesTest/
+</code>
+Slurm managemenr
+<code>
+    sacctmgr show associations format=user,MaxJobs
+    sacctmgr modify user <USERNAME> account=<ACCOUNTNAME> set MaxJobs=10
+</code>
+
+                            </pre>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Accordion Item #3
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <pre class="language-python">
+                            <code>
+import numpy as np
+from mayavi import mlab
+from tvtk.util import ctf
+
+def myRGB(r,g,b):
+    return (r/255,g/255,b/255)
+
+# mlab.figure(bgcolor=(1, 1, 1))
+
+x, y, z = np.ogrid[-10:10:50j, -10:10:30j, -10:10:10j]
+s = np.sin(x*y*z)/(x*y*z)
+
+src = mlab.pipeline.scalar_field(s)
+vol = mlab.pipeline.volume(src)
+
+vmax=np.amax(s)
+vmin=np.amin(s)
+
+c = ctf.save_ctfs(vol._volume_property)
+
+c['rgb']=[]
+# c['rgb'].append([0.0, 1.0, 1.0, 1.0]) # [value, r,g.b]
+c['rgb'].append([vmin, *myRGB(0,0,255)])
+c['rgb'].append([(vmin+vmax)/2,*myRGB(255,255,255)])
+c['rgb'].append([vmax,*myRGB(255,0,0)])
+
+c['alpha']=[]
+c['alpha'].append([vmin,1])
+c['alpha'].append([vmax,1])
+c['alpha'].append([0.00001,0.0])
+c['alpha'].append([-0.00001,0.0])
+
+c['range']=(vmin,vmax)
+
+ctf.load_ctfs(c, vol._volume_property)
+# Update the shadow LUT of the volume module.
+vol.update_ctf = True
+
+#update lut
+lut = vol.module_manager.scalar_lut_manager.lut
+ctf.set_lut(lut,vol._volume_property)
+
+vol.module_manager.scalar_lut_manager.show_legend = True
+vol.module_manager.scalar_lut_manager.data_name = "Name"
+vol.module_manager.scalar_lut_manager.title_text_property.italic = False
+
+mlab.show()
+                            </code>
+                            </pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <script src="js/background.js"></script>
+
+    <script src="js/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+
+</body>
+
+</html>

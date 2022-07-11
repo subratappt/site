@@ -1,0 +1,16 @@
+.header {
+  background-image: url("img/background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  max-height: 50px;
+}
+
+body {
+  /* background-image: url("img/5238994.jpg") no-repeat center center fixed; */
+  background-color: rgb(20, 30, 36);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
