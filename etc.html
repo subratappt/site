@@ -69,26 +69,22 @@ mlab.show()
                     <h2 class="accordion-header" id="headingTwo">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            Accordion Item #2
+                            File proccessing in Linux
                         </button>
                     </h2>
                     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            <pre class="language-cpp">
-<code>
-    setfacl -m u:username:rwx myfolder
-</code>
+                            <pre class="language-shell">
+Giving access to folder to other user
+<code>setfacl -m u:username:rwx myfolder</code>
 Parallel copy
-<code>
-    ls -1 /main/files | xargs -I {} -P 5 -n 1 rsync -avh /main/files/{} /main/filesTest/
-</code>
-Slurm managemenr
-<code>
-    sacctmgr show associations format=user,MaxJobs
-    sacctmgr modify user <USERNAME> account=<ACCOUNTNAME> set MaxJobs=10
-</code>
-
+<code>ls -1 /main/files | xargs -I {} -P 5 -n 1 rsync -avh /main/files/{} /main/filesTest/</code>
+Parallel compress
+<code>tar cf - paths-to-archive | pigz -9 -p 8 > archive.tar.gz</code>
+<!-- Slurm managemenr
+<code>sacctmgr show associations format=user,MaxJobs
+sacctmgr modify user <USERNAME> account=<ACCOUNTNAME> set MaxJobs=10</code> -->
                             </pre>
                         </div>
                     </div>
