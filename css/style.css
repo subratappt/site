@@ -5,3 +5,7 @@
 .txt_color_h {
   color: rgb(127, 139, 139);
 }
+
+table {
+  border: none;
+}
