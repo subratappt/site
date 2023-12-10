@@ -1,11 +1,48 @@
 .txt_color {
-  color: rgb(206, 212, 212);
+  color: rgb(27, 28, 28);
 }
 
 .txt_color_h {
-  color: rgb(127, 139, 139);
+  color: rgb(95, 110, 110);
 }
 
 table {
   border: none;
+}
+
+.navbar-fixed-top {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  background-color: rgba(0, 0, 0, 0.505);
+  max-width: 1600px;
+}
+
+.navbar-fixed-top.scrolling {
+  background-color: rgba(34, 31, 31, 0.948);
+}
+
+
+.social-icons {
+  padding-top: 10px;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.social-icons a img {
+  width: 30px;
+  height: 30px;
+}
+
+.social-icons a:hover img {
+  transition: all 0.2s ease-in-out;
+  scale: 1.4;
+  border-radius: 50%;
+  border: 2px solid #09b1bdcf;
+  opacity: 0.9;
 }

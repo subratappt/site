@@ -7,8 +7,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="css/background.css" />
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
+  <link rel="manifest" href="img/favicons/site.webmanifest">
 
   <title>Subrata</title>
 </head>
@@ -16,35 +21,39 @@
 
 <body>
   <!-- Navigation bar -->
-  <nav class="navbar navbar-expand-lg bg-dark navbar-dark shadow">
-    <div class="container">
-      <a href="#" class="navbar-brand">Subrata Das</a>
+  <div class="header">
+    <nav class=" navbar navbar-fixed-top navbar-expand-lg nav-bg-color navbar-dark shadow">
+      <div class="container">
+        <a href="#" class="navbar-brand">Subrata Das</a>
 
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-      <div class="collapse navbar-collapse" id="navmenu">
-        <ul class="navbar-nav ms-auto">
-          <!-- <li class="nav-item active">
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <!-- <li class="nav-item active">
             <a href="#home" class="nav-link">Home</a>
           </li> -->
-          <li class="nav-item">
-            <a href="#aboutme" class="nav-link">About Me</a>
-          </li>
-          <li class="nav-item">
-            <a href="#research" class="nav-link">Research</a>
-          </li>
-          <li class="nav-item">
-            <a href="#publication" class="nav-link">Publication</a>
-          </li>
-<!--           <li class="nav-item">
+            <li class="nav-item">
+              <a href="#aboutme" class="nav-link">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a href="#research" class="nav-link">Research</a>
+            </li>
+            <li class="nav-item">
+              <a href="#publication" class="nav-link">Publication</a>
+            </li>
+            <!--           <li class="nav-item">
             <a href="etc.html" class="nav-link">.etc</a>
           </li> -->
-        </ul>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
+  </div>
+
+
 
   <!-- Sections -->
   <section id="aboutme" class="p-5 text-center text-sm-start">
@@ -54,9 +63,8 @@
         <h1 class="txt_color_h">About Me</h1>
         <div class="col-md-6 txt_color">
           <p>
-            Hello and welcome to my webpage! My name is Subrata Das and I am a Postdoctoral Researcher in the
-            Department
-            of Physics at Virginia Tech,
+            I am a Postdoctoral Researcher in the
+            Department of Physics at Virginia Tech,
             US.</p>
           <p> I did my PhD from Indian Institute of Technology Kharagpur on Quantum Turbulence in Bose-Einstein
             Condensate.
@@ -67,6 +75,20 @@
         </div>
       </div>
       <!-- </div> -->
+      <div class="social-icons">
+        <a href="https://scholar.google.com/citations?user=PvcLNcIAAAAJ&hl=en" target="_blank">
+          <img src="img/icons/Google_Scholar_logo.svg" alt="Google Scholar" />
+        </a>
+        <a href="https://www.researchgate.net/profile/Subrata-Das-11" target="_blank">
+          <img src="img/icons/ResearchGate.svg" alt="ResearchGate" />
+        </a>
+        <a href="https://orcid.org/0000-0003-4527-8308" target="_blank">
+          <img src="img/icons/orcid-icon.svg" alt="ORCID" />
+        </a>
+        <a href="https://www.linkedin.com/in/subratappt/" target="_blank">
+          <img src="img/icons/linkedin-icon.svg" alt="LinkedIn" />
+        </a>
+      </div>
     </div>
   </section>
 
@@ -75,7 +97,7 @@
 
   <section class="p-5" id="research">
     <div class="container">
-      <h1 class="txt_color_h">Research</h1>
+      <h1 class="txt_color_h">Research Interests</h1>
       <div class="txt_color d-sm-flex">
         Quantum Gas, Bose-Einstein condensate, Quantum Vortex, Quantum Turbulence
       </div>
@@ -100,6 +122,8 @@
 
 
 
+
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
@@ -107,5 +131,11 @@
   <script src="js/background.js"></script>
   <script src="js/pubs.js"></script>
 </body>
+
+<footer class="footer">
+  <div class="container">
+    <p class="text-muted">© 2023 Subrata Das. All rights reserved.</p>
+  </div>
+</footer>
 
 </html>

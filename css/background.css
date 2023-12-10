@@ -1,16 +1,26 @@
 .header {
-  background-image: url("img/background.jpg");
+  background-image: url("../img/my_photo_header.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: center center !important;
   background-repeat: no-repeat;
-  max-height: 50px;
+  max-height: 200px;
+  max-width: 1600px;
+  margin: 0 auto;
 }
 
 body {
   /* background-image: url("img/5238994.jpg") no-repeat center center fixed; */
-  background-color: rgb(20, 30, 36);
+  background-color: rgb(233, 228, 228);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+}
+
+.footer {
+  padding: 10px 0;
+  background-color: rgba(34, 31, 31, 0.948);
+  text-align: center;
+  max-width: 1600px;
+  margin: 0 auto;
 }
