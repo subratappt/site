@@ -46,3 +46,10 @@ table {
   border: 2px solid #09b1bdcf;
   opacity: 0.9;
 }
+
+.research-item {
+  margin: 20px 0;
+  border: #09b1bdcf 1px solid;
+  border-radius: 10px;
+  padding: 10px;
+}
