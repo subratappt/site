@@ -1,5 +1,5 @@
 .header {
-  background-image: url("../img/my_photo_header.jpg");
+  background-image: url("../img/cover.jpg");
   background-size: cover;
   background-position: center center !important;
   background-repeat: no-repeat;
@@ -19,7 +19,7 @@ body {
 
 .footer {
   padding: 10px 0;
-  background-color: rgba(34, 31, 31, 0.948);
+  background-color: rgba(34, 31, 31, 0);
   text-align: center;
   max-width: 1600px;
   margin: 0 auto;
