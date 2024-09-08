@@ -20,7 +20,7 @@ table {
 }
 
 .navbar-fixed-top.scrolling {
-  background-color: rgba(34, 31, 31, 0.948);
+  background-color: rgba(34, 31, 31, 0.90);
 }
 
 
@@ -49,7 +49,8 @@ table {
 
 .research-item {
   margin: 20px 0;
-  border: #09b1bdcf 1px solid;
+  /* border: #09b1bdcf 1px solid; */
+  border: #b3b3b3cf 1px solid;
   border-radius: 10px;
   padding: 10px;
 }
