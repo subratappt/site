@@ -54,6 +54,8 @@ function buildTable(data) {
             journal = data[i].journalAbbreviation + " " + data[i].volume + dataIssue + ", " + data[i].pages
         } else if (data[i].itemType == "preprint") {
             journal = "arXiv preprint " + data[i].archiveID
+        } else if (data[i].itemType == "conferencePaper") {
+            journal = data[i].proceedingsTitle + ", " + data[i].pages
         }
 
         var row = `<tr style="font-family: Garamond, serif; font-size:18px;">
