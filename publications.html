@@ -46,13 +46,13 @@
             <a href="#home" class="nav-link">Home</a>
           </li> -->
                         <li class="nav-item">
-                            <a href="index.html#aboutme" class="nav-link">About Me</a>
+                            <a href="index.html" class="nav-link">About Me</a>
                         </li>
                         <li class="nav-item">
                             <a href="index.html#research" class="nav-link">Research</a>
                         </li>
                         <li class="nav-item">
-                            <a href="publications.html" class="nav-link">Publication</a>
+                            <a href="publications.html" class="nav-link">Publications</a>
                         </li>
                         <!--           <li class="nav-item">
             <a href="etc.html" class="nav-link">.etc</a>
@@ -85,14 +85,19 @@
 
     <script src="js/background.js"></script>
     <script src="js/pubs.js"></script>
-</body>
+    <script src="js/common.js"></script>
 
-<footer class="footer">
-    <hr>
-    <div class="container">
-        <p class="text-muted">© 2024 Subrata Das</p>
-        <p class="text-muted" style="font-size: 12px;">Last updated: September, 2024</p>
-    </div>
-</footer>
+    <footer class="footer">
+        <hr>
+        <div class="container">
+            <p class="text-muted">© 2024 Subrata Das</p>
+            <script>
+                document.getElementById("last-update-text").textContent = `Last updated: ${last_update}`;
+            </script>
+            <p class="text-muted" style="font-size: 12px;">Last updated: November, 2024</p>
+        </div>
+    </footer>
+
+</body>
 
 </html>

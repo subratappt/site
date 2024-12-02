@@ -586,7 +586,7 @@
       "key": "YYM3KZ4P",
       "version": 16648,
       "itemType": "journalArticle",
-      "title": "Control of $^{164}\\mathrm{Dy}$ {Bose-Einstein} condensate phases and dynamics with dipolar anisotropy",
+      "title": "Control of <sup>164</sup>Dy Bose-Einstein condensate phases and dynamics with dipolar anisotropy",
       "abstractNote": "We investigate the quench dynamics of quasi-one- and two-dimensional dipolar Bose-Einstein condensates of 164Dy atoms under the influence of a fast rotating magnetic field. The magnetic field thus controls both the magnitude and sign of the dipolar potential. We account for quantum fluctuations, critical to formation of exotic quantum droplet and supersolid phases in the extended Gross-Pitaevskii formalism, which includes the so-called Lee-Huang-Yang correction. An analytical variational ansatz allows us to obtain the phase diagrams of the superfluid and droplet phases. The crossover from the superfluid to the supersolid phase and to single and droplet arrays is probed with particle number and dipolar interaction. The dipolar strength is tuned by rotating the magnetic field with subsequent effects on phase boundaries. Following interaction quenches across the aforementioned phases, we monitor the dynamical formation of supersolid clusters or droplet lattices. We include losses due to three-body recombination over the crossover regime, where the three-body recombination rate coefficient scales with the fourth power of the scattering length (as) or the dipole length (add). For fixed values of the dimensionless parameter, εdd=add/as, tuning the dipolar anisotropy leads to an enhancement of the droplet lifetimes.",
       "date": "2022-11-21",
       "libraryCatalog": "APS",
