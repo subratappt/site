@@ -53,7 +53,7 @@ function buildTable(data) {
             dataIssue = data[i].issue ? " (" + data[i].issue + ")" : ""
             journal = data[i].journalAbbreviation + " " + data[i].volume + dataIssue + ", " + data[i].pages
         } else if (data[i].itemType == "preprint") {
-            journal = "arXiv preprint " + data[i].archiveID
+            journal = "arXiv preprint " + data[i].archiveID + data[I].note
         } else if (data[i].itemType == "conferencePaper") {
             journal = data[i].proceedingsTitle + ", " + data[i].pages
         }
