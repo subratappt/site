@@ -370,14 +370,14 @@
       "itemType": "preprint",
       "title": "Unveiling Supersolid Order via Vortex Trajectory Correlations",
       "abstractNote": "The task of experimentally investigating the inherently dual properties of a supersolid, a simultaneous superfluid and solid, has become more critical following the recent experimental evidence for supersolids in dipolar Bose-Einstein condensates (BECs) of $^{164}\\text{Dy}$. We introduce a supersolid order parameter that uses vortex-vortex trajectory correlations to simultaneously reveal the periodic density of the underlying solid and superfluidity in a single measure. We propose experiments using existing technology to optically create and image trajectories of vortex dipoles in dipolar BECs. We numerically test our observable and find that vortex-vortex correlations reveal the supersolid lattice structure while distinguishing it from superfluidity. Our method sets the stage for experiments to use vortex trajectory correlations to investigate fundamental properties of supersolids arising from their dynamics and phase transitions.",
-      "date": "2024-07-03",
+      "date": "2025-04-22",
       "libraryCatalog": "arXiv.org",
       "url": "http://arxiv.org/abs/2407.02481",
       "accessDate": "2024-07-21T17:26:28Z",
       "rights": "Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License (CC-BY-NC-ND)",
       "extra": "arXiv:2407.02481 [cond-mat, physics:physics]",
       "DOI": "10.48550/arXiv.2407.02481",
-      "repository": "arXiv",
+      "repository": "Phys. Rev. Lett. (to be published)",
       "archiveID": "arXiv:2407.02481",
       "creators": [
         {
