@@ -61,7 +61,7 @@ function buildTable(data) {
 
         var row = `<tr style="font-family: Garamond, serif; font-size:18px;">
         <td>${yy}</td>
-        <td class="text-wrap"> <i style="color: #565656;">${data[i].title}</i>, ${authorList}  <a href="${data[i].url}" style="text-decoration: none; color: #2f82a6">${journal}</a> ${mynote} <b style="color: #565656; cursor: pointer;" onclick="toggleAbstract('abstract${i}')">▶ Abstract</b>
+        <td class="text-wrap"> <i style="color: #565656;">${data[i].title}</i>, ${authorList}  <a href="${data[i].url}" style="text-decoration: none; color: #016d9b">${journal}</a> ${mynote} <b style="color: #565656; cursor: pointer;" onclick="toggleAbstract('abstract${i}')">▶ Abstract</b>
             <div id="abstract${i}" style="display: none; font-family: 'Times New Roman'; font-size:16px ; color: black; margin-top: 10px;border: 1px solid #ccc; border-radius: 8px; padding: 10px;background-color:#e8e8e8;">
                 ${data[i].abstractNote ? data[i].abstractNote : "No abstract available."}
             </div>

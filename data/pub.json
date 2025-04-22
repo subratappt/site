@@ -4,10 +4,9 @@
     "label": "BetterBibTeX JSON",
     "preferences": {
       "ascii": "",
-      "asciiBibLaTeX": true,
+      "asciiBibLaTeX": false,
       "asciiBibTeX": true,
-      "autoAbbrev": false,
-      "autoAbbrevStyle": "",
+      "autoAbbrev": true,
       "autoExport": "immediate",
       "autoExportDelay": 5,
       "autoExportIdleWait": 10,
@@ -23,7 +22,7 @@
       "biblatexExtractEprint": true,
       "bibtexEditionOrdinal": false,
       "bibtexParticleNoOp": false,
-      "bibtexURL": "url",
+      "bibtexURL": "off",
       "cache": true,
       "cacheDelete": false,
       "cacheRetain": false,
@@ -35,7 +34,7 @@
       "citekeySearch": true,
       "citekeyUnsafeChars": "\\\"#%'(),={}~",
       "csquotes": "",
-      "DOIandURL": "both",
+      "DOIandURL": "doi",
       "exportBibTeXStrings": "off",
       "exportBraceProtection": true,
       "exportSort": "citekey",
@@ -60,7 +59,7 @@
       "jabrefFormat": 0,
       "jieba": false,
       "keyConflictPolicy": "keep",
-      "keyScope": "global",
+      "keyScope": "library",
       "kuroshiro": false,
       "language": "langid",
       "mapMath": "",
@@ -82,7 +81,7 @@
       "relativeFilePaths": false,
       "separatorList": "and",
       "separatorNames": "and",
-      "skipFields": "abstract,file",
+      "skipFields": "abstract,file,note",
       "skipWords": "a,ab,aboard,about,above,across,after,against,al,along,amid,among,an,and,anti,around,as,at,before,behind,below,beneath,beside,besides,between,beyond,but,by,d,da,das,de,del,dell,dello,dei,degli,della,dell,delle,dem,den,der,des,despite,die,do,down,du,during,ein,eine,einem,einen,einer,eines,el,en,et,except,for,from,gli,i,il,in,inside,into,is,l,la,las,le,les,like,lo,los,near,nor,of,off,on,onto,or,over,past,per,plus,round,save,since,so,some,sur,than,the,through,to,toward,towards,un,una,unas,under,underneath,une,unlike,uno,unos,until,up,upon,versus,via,von,while,with,within,without,yet,zu,zum",
       "startupProgress": "popup",
       "strings": "",
@@ -93,26 +92,25 @@
     },
     "options": {
       "Items": true,
-      "Normalize": false,
+      "Normalize": true,
       "Preferences": true,
       "cache": true,
-      "exportDir": "/Volumes/Moon/Website/site/data",
+      "exportDir": "/Users/subrata/Academics/Documents/site/data",
       "exportFileData": false,
-      "exportNotes": true,
-      "exportPath": "/Volumes/Moon/Website/site/data/pub.json",
-      "keepUpdated": true,
-      "worker": true
+      "exportNotes": false,
+      "exportPath": "/Users/subrata/Academics/Documents/site/data/pub.json",
+      "keepUpdated": false,
+      "worker": false
     }
   },
   "version": {
-    "zotero": "6.0.37",
-    "bbt": "6.7.250"
+    "zotero": "7.0.11",
+    "bbt": "7.0.5"
   },
   "collections": {},
   "items": [
     {
-      "key": "FJ572HVD",
-      "version": 6354,
+      "version": 20101,
       "itemType": "journalArticle",
       "title": "Role of vector polarizability induced by a linearly polarized focused Laguerre–Gaussian light: applications in optical trapping and ultracold spinor mixture",
       "abstractNote": "We unravel the impact of vector polarizability, induced by a linearly polarized focused Laguerre–Gaussian (LG) light, to accurately determine the magic wavelengths for the clock transitions $$4s_{\\frac{1}{2}}- 3d_{\\frac{3}{2}, \\frac{5}{2}}$$of Sc$$^{2+}$$ion and to achieve singlet-pairing process in ultracold mixture of $$^{87}$$Rb and $$^{23}$$Na atoms. We examine how the orbital angular momentum and spin-orbit coupling of the light can intervene in calculating the dynamic electric dipole polarizabilities of the atomic states and, consequently, the magic wavelengths for the clock transitions of Sc$$^{2+}$$ion. As the vector polarizability can create a species-dependent synthetic magnetic field, by combining it with the real magnetic field, we propose a controlling mechanism of the interspecies singlet-pairing process, $$\\beta _{+1}+\\gamma _{-1} \\leftrightarrow \\beta _{-1}+\\gamma _{+1}$$, where $$\\beta $$and $$\\gamma $$denote the two atomic species, $$^{87}$$Rb and $$^{23}$$Na, respectively, of the ultracold heteronuclear spinor mixture. The subscript $$\\pm 1$$refers to their magnetic quantum numbers. This singlet-pairing process cannot be distinguished from the much stronger other spin-mixing processes by applying an external magnetic field only. We demonstrate that a linearly polarized focused LG light provides a way to isolate the singlet-pairing process due to the presence of orbital angular momentum in the light.",
@@ -123,6 +121,7 @@
       "url": "https://doi.org/10.1140/epjd/s10053-022-00470-y",
       "accessDate": "2022-08-09T08:03:26Z",
       "rights": "All rights reserved",
+      "extra": "Number: 8",
       "volume": "76",
       "pages": "139",
       "publicationTitle": "The European Physical Journal D",
@@ -149,33 +148,97 @@
       ],
       "tags": [],
       "relations": {},
-      "inPublications": true,
-      "dateAdded": "2022-08-09T08:03:26Z",
-      "dateModified": "2022-08-09T08:03:26Z",
-      "uri": "http://zotero.org/users/5901476/items/FJ572HVD",
-      "itemID": 472,
+      "dateAdded": "2025-01-01T07:10:57Z",
+      "dateModified": "2025-01-01T07:10:57Z",
+      "uri": "http://zotero.org/users/5901476/items/HGMNN7I5",
       "attachments": [
         {
           "itemType": "attachment",
           "title": "bhowmik_et_al_2022_role_of_vector_polarizability_induced_by_a_linearly_polarized_focused.pdf",
           "tags": [],
           "relations": {},
-          "dateAdded": "2023-07-09T15:54:33Z",
-          "dateModified": "2023-07-19T03:58:21Z",
-          "uri": "http://zotero.org/users/5901476/items/BTC4B7UA",
-          "path": "/Users/subrata/Zotero/storage/BTC4B7UA/bhowmik_et_al_2022_role_of_vector_polarizability_induced_by_a_linearly_polarized_focused.pdf",
-          "select": "zotero://select/library/items/BTC4B7UA"
+          "dateAdded": "2025-01-01T07:10:57Z",
+          "dateModified": "2025-01-01T07:10:57Z",
+          "uri": "http://zotero.org/users/5901476/items/FHUBZVM5",
+          "path": "/Users/subrata/Zotero/storage/FHUBZVM5/bhowmik_et_al_2022_role_of_vector_polarizability_induced_by_a_linearly_polarized_focused.pdf",
+          "select": "zotero://select/library/items/FHUBZVM5"
         }
       ],
       "notes": [],
-      "citationKey": "bhowmik_2022_role",
-      "itemKey": "FJ572HVD",
+      "citationKey": "bhowmikRoleVectorPolarizability2022",
+      "autoJournalAbbreviation": "Eur. Phys. J. D",
+      "itemID": 639,
+      "itemKey": "HGMNN7I5",
       "libraryID": 1,
-      "select": "zotero://select/library/items/FJ572HVD"
+      "select": "zotero://select/library/items/HGMNN7I5"
     },
     {
-      "key": "JVW2QGU9",
-      "version": 16502,
+      "version": 21555,
+      "itemType": "journalArticle",
+      "title": "Unveiling Supersolid Order via Vortex Trajectory Correlations",
+      "abstractNote": "The task of experimentally investigating the inherently dual properties of a supersolid, a simultaneous superfluid and solid, has become more critical following the recent experimental exploration of supersolid regimes in dipolar Bose-Einstein condensates (BECs) of 164Dy. We introduce a supersolid order parameter that uses vortex-vortex trajectory correlations to simultaneously reveal the periodic density of the underlying solid and superfluidity in a single measure. We propose experiments using existing technology to optically create and image trajectories of vortex dipoles in dipolar BECs that is applicable to large system sizes. We numerically test our observable and find that vortex-vortex correlations reveal the supersolid lattice structure while distinguishing it from superfluidity even in the presence of dissipation. Our method sets the stage for experiments to use vortex trajectory correlations to investigate fundamental properties of supersolids arising from their dynamics and phase transitions as experimental system sizes are increased.",
+      "date": "2025-04-22",
+      "libraryCatalog": "APS",
+      "url": "https://link.aps.org/doi/10.1103/PhysRevLett.134.163401",
+      "accessDate": "2025-04-22T20:20:20Z",
+      "extra": "Publisher: American Physical Society",
+      "volume": "134",
+      "pages": "163401",
+      "publicationTitle": "Physical Review Letters",
+      "DOI": "10.1103/PhysRevLett.134.163401",
+      "issue": "16",
+      "journalAbbreviation": "Phys. Rev. Lett.",
+      "creators": [
+        {
+          "firstName": "Subrata",
+          "lastName": "Das",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Vito W.",
+          "lastName": "Scarola",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2025-04-22T20:20:20Z",
+      "dateModified": "2025-04-22T20:20:20Z",
+      "uri": "http://zotero.org/users/5901476/items/T99UUKKI",
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "APS Snapshot",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2025-04-22T20:20:26Z",
+          "dateModified": "2025-04-22T20:20:26Z",
+          "uri": "http://zotero.org/users/5901476/items/BV76UIVA",
+          "path": "/Users/subrata/Zotero/storage/BV76UIVA/PhysRevLett.134.html",
+          "select": "zotero://select/library/items/BV76UIVA"
+        },
+        {
+          "itemType": "attachment",
+          "title": "das_and_scarola_2025_unveiling_supersolid_order_via_vortex_trajectory_correlations.pdf",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2025-04-22T20:20:22Z",
+          "dateModified": "2025-04-22T20:20:22Z",
+          "uri": "http://zotero.org/users/5901476/items/28FYP3XK",
+          "path": "/Users/subrata/Zotero/storage/28FYP3XK/das_and_scarola_2025_unveiling_supersolid_order_via_vortex_trajectory_correlations.pdf",
+          "select": "zotero://select/library/items/28FYP3XK"
+        }
+      ],
+      "notes": [],
+      "citationKey": "das_2025_unveiling",
+      "autoJournalAbbreviation": "Phys. Rev. Lett.",
+      "itemID": 4190,
+      "itemKey": "T99UUKKI",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/T99UUKKI"
+    },
+    {
+      "version": 20101,
       "itemType": "journalArticle",
       "title": "Transfer of orbital angular momentum superposition from asymmetric Laguerre–Gaussian beam to Bose–Einstein Condensate",
       "abstractNote": "In this paper, we have formulated a theory for the microscopic interaction of the asymmetric Laguerre–Gaussian (aLG) beam with the atomic Bose–Einstein condensate (BEC) in a harmonic trap. Here the asymmetry is introduced to an LG beam considering a complex-valued shift in the Cartesian plane keeping the axis of the beam and its vortex states co-axial to the trap axis of the BEC. Due to the inclusion of the asymmetric nature, multiple quantized circulations are generated in the beam. We show how these quantized circulations are transferred to the BEC, resulting in a superposition of matter vortex states. The calculated Rabi frequencies for the dipole as well as quadrupole transitions during the transfer process show distinct variability with the shift parameters of the beam. A significant enhancement of the quadrupole Rabi frequency for higher vorticity states is observed compared to the symmetric single orbital angular momentum (OAM) mode beam at a particular range of the shift parameters. We also demonstrate the variation of superposition of matter vortex states and observe its distinct feature compared to the superposition of the LG modes for different shift parameters. The first order spatial correlation of the superposed states supports this feature and highlights asymmetry in the degree of transverse coherence along orthogonal directions on the surface.",
@@ -185,7 +248,7 @@
       "url": "https://doi.org/10.1088/1361-6455/ab42c4",
       "accessDate": "2021-10-02T14:54:35Z",
       "rights": "All rights reserved",
-      "extra": "Publisher: IOP Publishing",
+      "extra": "Number: 2\nPublisher: IOP Publishing",
       "volume": "53",
       "pages": "025302",
       "publicationTitle": "Journal of Physics B: Atomic, Molecular and Optical Physics",
@@ -220,48 +283,33 @@
           "tag": "Researcher App"
         }
       ],
-      "relations": {
-        "dc:replaces": [
-          "http://zotero.org/users/5901476/items/2VUIE55Z",
-          "http://zotero.org/users/5901476/items/6Y9BK8YV",
-          "http://zotero.org/users/5901476/items/E5AAZGUP",
-          "http://zotero.org/users/5901476/items/JHEHUFUM",
-          "http://zotero.org/users/5901476/items/LJ4VU2I8",
-          "http://zotero.org/users/5901476/items/PLF7TXGT",
-          "http://zotero.org/users/5901476/items/PNMXU8R9"
-        ]
-      },
-      "inPublications": true,
-      "dateAdded": "2021-10-02T14:54:35Z",
-      "dateModified": "2024-06-26T18:55:47Z",
-      "uri": "http://zotero.org/users/5901476/items/JVW2QGU9",
-      "itemID": 447,
+      "relations": {},
+      "dateAdded": "2025-01-01T07:10:37Z",
+      "dateModified": "2025-01-01T07:10:37Z",
+      "uri": "http://zotero.org/users/5901476/items/T52BCU56",
       "attachments": [
         {
           "itemType": "attachment",
           "title": "das_et_al_2020_transfer_of_orbital_angular_momentum_superposition_from_asymmetric.pdf",
           "tags": [],
-          "relations": {
-            "dc:replaces": [
-              "http://zotero.org/users/5901476/items/4KV9JAE8"
-            ]
-          },
-          "dateAdded": "2023-07-09T15:55:55Z",
-          "dateModified": "2023-07-19T03:57:16Z",
-          "uri": "http://zotero.org/users/5901476/items/X4P79D8P",
-          "path": "/Users/subrata/Zotero/storage/X4P79D8P/das_et_al_2020_transfer_of_orbital_angular_momentum_superposition_from_asymmetric.pdf",
-          "select": "zotero://select/library/items/X4P79D8P"
+          "relations": {},
+          "dateAdded": "2025-01-01T07:10:37Z",
+          "dateModified": "2025-01-01T07:10:38Z",
+          "uri": "http://zotero.org/users/5901476/items/NASGM77F",
+          "path": "/Users/subrata/Zotero/storage/NASGM77F/das_et_al_2020_transfer_of_orbital_angular_momentum_superposition_from_asymmetric.pdf",
+          "select": "zotero://select/library/items/NASGM77F"
         }
       ],
       "notes": [],
-      "citationKey": "das_2020_transfer",
-      "itemKey": "JVW2QGU9",
+      "citationKey": "dasTransferOrbitalAngular2020",
+      "autoJournalAbbreviation": "J. Phys. B At. Mol. Opt. Phys.",
+      "itemID": 664,
+      "itemKey": "T52BCU56",
       "libraryID": 1,
-      "select": "zotero://select/library/items/JVW2QGU9"
+      "select": "zotero://select/library/items/T52BCU56"
     },
     {
-      "key": "4TDMIUY3",
-      "version": 15138,
+      "version": 20100,
       "itemType": "journalArticle",
       "title": "Vortex formation and quantum turbulence with rotating paddle potentials in a two-dimensional binary Bose-Einstein condensate",
       "abstractNote": "We conduct a theoretical study of the creation and dynamics of vortices in a two-dimensional binary Bose-Einstein condensate with a mass imbalance between the species. To initiate the dynamics, we use one or two rotating paddle potentials in one species, while the other species is influenced only via the interspecies interaction. In both species, the number and the dominant sign of the vortices are determined by the rotation frequency of the paddle potential. Clusters of positive and negative vortices form at a low rotation frequency comparable to that of the trap when using the single paddle potential. In contrast, vortices of the same sign tend to dominate as the rotation frequency of the paddle increases, and the angular momentum reaches a maximum value at a paddle frequency where the paddle velocity becomes equal to the sound velocity of the condensate. When the rotation frequency is sufficiently high, the rapid annihilation of vortex-antivortex pairs significantly reduces the number of vortices and antivortices in the system. For two paddle potentials rotating in the same direction, the vortex dynamics phenomenon is similar to that of a single paddle. However, when the paddle potentials are rotated in the opposite direction, both positive- and negative-signed vortices occur at all rotational frequencies. At the low rotation frequencies, the cluster of like-signed vortices produces the k−5/3 and k−3 power laws in the incompressible kinetic energy spectrum at low and high wave numbers, respectively, a hallmark of the quantum turbulent flows.",
@@ -270,7 +318,7 @@
       "url": "https://link.aps.org/doi/10.1103/PhysRevA.106.023306",
       "accessDate": "2022-08-07T13:30:01Z",
       "rights": "All rights reserved",
-      "extra": "Publisher: American Physical Society",
+      "extra": "Number: 2\nPublisher: American Physical Society",
       "volume": "106",
       "pages": "023306",
       "publicationTitle": "Physical Review A",
@@ -299,227 +347,86 @@
           "tag": "Researcher App"
         }
       ],
-      "relations": {
-        "dc:replaces": [
-          "http://zotero.org/users/5901476/items/4W7S5D97",
-          "http://zotero.org/users/5901476/items/8RFWI6LC"
-        ]
-      },
-      "inPublications": true,
-      "dateAdded": "2022-02-10T17:39:07Z",
-      "dateModified": "2022-09-19T13:08:22Z",
-      "uri": "http://zotero.org/users/5901476/items/4TDMIUY3",
-      "itemID": 448,
+      "relations": {},
+      "dateAdded": "2025-01-01T07:10:38Z",
+      "dateModified": "2025-01-01T07:10:38Z",
+      "uri": "http://zotero.org/users/5901476/items/8RWQZL59",
       "attachments": [
         {
+          "version": 20100,
           "itemType": "attachment",
           "title": "APS Snapshot",
+          "url": "https://journals.aps.org/pra/abstract/10.1103/PhysRevA.106.023306#fulltext",
+          "accessDate": "2022-08-07T13:30:09Z",
+          "parentItem": "8RWQZL59",
+          "linkMode": "linked_url",
+          "contentType": "text/html",
+          "charset": "",
           "tags": [],
           "relations": {},
-          "dateAdded": "2022-08-07T13:30:09Z",
-          "dateModified": "2022-08-07T13:30:09Z",
-          "uri": "http://zotero.org/users/5901476/items/YIDR34ET",
-          "path": "/Users/subrata/Zotero/storage/YIDR34ET/PhysRevA.106.html",
-          "select": "zotero://select/library/items/YIDR34ET"
+          "inPublications": true,
+          "dateAdded": "2025-01-01T07:10:38Z",
+          "dateModified": "2025-01-01T07:10:38Z",
+          "uri": "http://zotero.org/users/5901476/items/YGM22XIR",
+          "itemID": 1785,
+          "itemKey": "YGM22XIR",
+          "libraryID": 1
         },
         {
+          "version": 20100,
           "itemType": "attachment",
           "title": "arXiv.org Snapshot",
+          "url": "https://arxiv.org/abs/2202.04531",
+          "accessDate": "2022-02-10T17:39:27Z",
+          "parentItem": "8RWQZL59",
+          "linkMode": "linked_url",
+          "contentType": "text/html",
+          "charset": "",
           "tags": [],
           "relations": {},
-          "dateAdded": "2022-02-10T17:39:27Z",
-          "dateModified": "2022-08-07T13:30:31Z",
-          "uri": "http://zotero.org/users/5901476/items/HW3JDU7F",
-          "path": "/Users/subrata/Zotero/storage/HW3JDU7F/2202.html",
-          "select": "zotero://select/library/items/HW3JDU7F"
+          "inPublications": true,
+          "dateAdded": "2025-01-01T07:10:38Z",
+          "dateModified": "2025-01-01T07:10:38Z",
+          "uri": "http://zotero.org/users/5901476/items/CCMZLJDZ",
+          "itemID": 1786,
+          "itemKey": "CCMZLJDZ",
+          "libraryID": 1
         },
         {
           "itemType": "attachment",
           "title": "das_et_al_2022_vortex_formation_and_quantum_turbulence_with_rotating_paddle_potentials_in_a.pdf",
           "tags": [],
           "relations": {},
-          "dateAdded": "2023-07-09T15:54:29Z",
-          "dateModified": "2023-07-19T03:57:53Z",
-          "uri": "http://zotero.org/users/5901476/items/DLK9XC7Z",
-          "path": "/Users/subrata/Zotero/storage/DLK9XC7Z/das_et_al_2022_vortex_formation_and_quantum_turbulence_with_rotating_paddle_potentials_in_a.pdf",
-          "select": "zotero://select/library/items/DLK9XC7Z"
+          "dateAdded": "2025-01-01T07:10:38Z",
+          "dateModified": "2025-01-01T07:10:38Z",
+          "uri": "http://zotero.org/users/5901476/items/TAAWATER",
+          "path": "/Users/subrata/Zotero/storage/TAAWATER/das_et_al_2022_vortex_formation_and_quantum_turbulence_with_rotating_paddle_potentials_in_a.pdf",
+          "select": "zotero://select/library/items/TAAWATER"
         }
       ],
       "notes": [
         {
-          "key": "BX8MZUCV",
-          "version": 6269,
+          "key": "SEQSMREY",
+          "version": 19760,
           "itemType": "note",
-          "parentItem": "4TDMIUY3",
+          "parentItem": "8RWQZL59",
           "note": "Comment: 11 pages, 9 figures",
           "tags": [],
           "relations": {},
-          "dateAdded": "2022-02-10T17:39:07Z",
-          "dateModified": "2022-08-07T13:30:31Z",
-          "uri": "http://zotero.org/users/5901476/items/BX8MZUCV"
+          "dateAdded": "2025-01-01T07:10:38Z",
+          "dateModified": "2025-01-01T07:10:38Z",
+          "uri": "http://zotero.org/users/5901476/items/SEQSMREY"
         }
       ],
-      "citationKey": "das_2022_vortex",
-      "itemKey": "4TDMIUY3",
+      "citationKey": "dasVortexFormationQuantum2022",
+      "autoJournalAbbreviation": "Phys. Rev. A",
+      "itemID": 662,
+      "itemKey": "8RWQZL59",
       "libraryID": 1,
-      "select": "zotero://select/library/items/4TDMIUY3"
+      "select": "zotero://select/library/items/8RWQZL59"
     },
     {
-      "key": "XNGI6ZL3",
-      "version": 16889,
-      "itemType": "preprint",
-      "title": "Unveiling Supersolid Order via Vortex Trajectory Correlations",
-      "abstractNote": "The task of experimentally investigating the inherently dual properties of a supersolid, a simultaneous superfluid and solid, has become more critical following the recent experimental evidence for supersolids in dipolar Bose-Einstein condensates (BECs) of $^{164}\\text{Dy}$. We introduce a supersolid order parameter that uses vortex-vortex trajectory correlations to simultaneously reveal the periodic density of the underlying solid and superfluidity in a single measure. We propose experiments using existing technology to optically create and image trajectories of vortex dipoles in dipolar BECs. We numerically test our observable and find that vortex-vortex correlations reveal the supersolid lattice structure while distinguishing it from superfluidity. Our method sets the stage for experiments to use vortex trajectory correlations to investigate fundamental properties of supersolids arising from their dynamics and phase transitions.",
-      "date": "2025-04-22",
-      "libraryCatalog": "arXiv.org",
-      "url": "http://arxiv.org/abs/2407.02481",
-      "accessDate": "2024-07-21T17:26:28Z",
-      "rights": "Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License (CC-BY-NC-ND)",
-      "extra": "arXiv:2407.02481 [cond-mat, physics:physics]",
-      "DOI": "10.48550/arXiv.2407.02481",
-      "repository": "Phys. Rev. Lett. (to be published)",
-      "mynote": "(to be published, Phys. Rev. Lett. (2025))",
-      "archiveID": "arXiv:2407.02481",
-      "creators": [
-        {
-          "firstName": "Subrata",
-          "lastName": "Das",
-          "creatorType": "author"
-        },
-        {
-          "firstName": "Vito W.",
-          "lastName": "Scarola",
-          "creatorType": "author"
-        }
-      ],
-      "tags": [
-        {
-          "tag": "Condensed Matter - Quantum Gases",
-          "type": 1
-        },
-        {
-          "tag": "Physics - Atomic Physics",
-          "type": 1
-        }
-      ],
-      "relations": {},
-      "inPublications": true,
-      "dateAdded": "2024-07-21T17:26:28Z",
-      "dateModified": "2024-07-21T17:26:28Z",
-      "uri": "http://zotero.org/users/5901476/items/XNGI6ZL3",
-      "itemID": 2561,
-      "attachments": [
-        {
-          "itemType": "attachment",
-          "title": "arXiv.org Snapshot",
-          "tags": [],
-          "relations": {},
-          "dateAdded": "2024-07-21T17:26:35Z",
-          "dateModified": "2024-07-21T17:26:35Z",
-          "uri": "http://zotero.org/users/5901476/items/68QEV3UW",
-          "path": "/Users/subrata/Zotero/storage/68QEV3UW/2407.html",
-          "select": "zotero://select/library/items/68QEV3UW"
-        },
-        {
-          "itemType": "attachment",
-          "title": "das_scarola_2024_unveiling_supersolid_order_via_vortex_trajectory_correlations.pdf",
-          "tags": [],
-          "relations": {},
-          "dateAdded": "2024-07-21T17:26:30Z",
-          "dateModified": "2024-07-21T17:26:30Z",
-          "uri": "http://zotero.org/users/5901476/items/IG8I7GM4",
-          "path": "/Users/subrata/Zotero/storage/IG8I7GM4/das_scarola_2024_unveiling_supersolid_order_via_vortex_trajectory_correlations.pdf",
-          "select": "zotero://select/library/items/IG8I7GM4"
-        }
-      ],
-      "notes": [
-        {
-          "key": "FLYG5ISQ",
-          "version": 16885,
-          "itemType": "note",
-          "parentItem": "XNGI6ZL3",
-          "note": "Comment: 7 pages, 4 figures (with supplement of 1 page, 1 figure)",
-          "tags": [],
-          "relations": {},
-          "dateAdded": "2024-07-21T17:26:28Z",
-          "dateModified": "2024-07-21T17:26:28Z",
-          "uri": "http://zotero.org/users/5901476/items/FLYG5ISQ"
-        }
-      ],
-      "citationKey": "das_2024_unveiling",
-      "itemKey": "XNGI6ZL3",
-      "libraryID": 1,
-      "select": "zotero://select/library/items/XNGI6ZL3"
-    },
-    {
-      "key": "6MXDD2YU",
-      "version": 18365,
-      "itemType": "journalArticle",
-      "title": "Induced supersolidity and hypersonic flow of a dipolar Bose-Einstein condensate in a rotating bubble trap",
-      "abstractNote": "Motivated by the recent realization of space-borne Bose-Einstein Condensates (BECs) under microgravity conditions, we extend the understanding of ultracold dipolar bosonic gases by exploring their behavior in a novel trapping configuration known as the “bubble trap” topology. Utilizing the three-dimensional numerical simulations within the extended Gross-Pitaevskii framework, we unveil diverse ground-state phases in this static curved topology. Subsequently, we investigate the influence of rotation on a dipolar BEC confined to the surface of a spherical bubble. Our findings reveal that the rotation of a bubble trap at certain rotation frequencies can modify the effective local dipole-dipole interaction strength, leading to the induction of supersolidity and the formation of quantum droplets. In addition, we demonstrate that a bubble trap can sustain high circulation, with the flow persisting for a longer time. Significantly, adjusting the rf detuning parameter allows the condensate to achieve hypersonic velocity. Finally, we also explore the impact of drastic change in the topological nature of the trap on the rotating dipolar BEC, transitioning from a filled shell trap to a bubble trap and vice versa. Based on the results of the topological transition, we propose a dynamic protocol to drive the interacting atomic gas into the quantum Hall regime.",
-      "date": "2024-09-20",
-      "libraryCatalog": "APS",
-      "url": "https://link.aps.org/doi/10.1103/PhysRevA.110.033322",
-      "accessDate": "2024-11-15T20:32:41Z",
-      "rights": "All rights reserved",
-      "extra": "Publisher: American Physical Society",
-      "volume": "110",
-      "pages": "033322",
-      "publicationTitle": "Physical Review A",
-      "DOI": "10.1103/PhysRevA.110.033322",
-      "issue": "3",
-      "journalAbbreviation": "Phys. Rev. A",
-      "creators": [
-        {
-          "firstName": "Hari Sadhan",
-          "lastName": "Ghosh",
-          "creatorType": "author"
-        },
-        {
-          "firstName": "Soumyadeep",
-          "lastName": "Halder",
-          "creatorType": "author"
-        },
-        {
-          "firstName": "Subrata",
-          "lastName": "Das",
-          "creatorType": "author"
-        },
-        {
-          "firstName": "Sonjoy",
-          "lastName": "Majumder",
-          "creatorType": "author"
-        }
-      ],
-      "tags": [],
-      "relations": {},
-      "inPublications": true,
-      "dateAdded": "2024-11-15T20:32:41Z",
-      "dateModified": "2024-11-15T20:32:41Z",
-      "uri": "http://zotero.org/users/5901476/items/6MXDD2YU",
-      "itemID": 2740,
-      "attachments": [
-        {
-          "itemType": "attachment",
-          "title": "ghosh_et_al_2024_induced_supersolidity_and_hypersonic_flow_of_a_dipolar_bose-einstein_condensate.pdf",
-          "tags": [],
-          "relations": {},
-          "dateAdded": "2024-11-15T20:32:42Z",
-          "dateModified": "2024-11-15T20:32:44Z",
-          "uri": "http://zotero.org/users/5901476/items/23GQRGG6",
-          "path": "/Users/subrata/Zotero/storage/23GQRGG6/ghosh_et_al_2024_induced_supersolidity_and_hypersonic_flow_of_a_dipolar_bose-einstein_condensate.pdf",
-          "select": "zotero://select/library/items/23GQRGG6"
-        }
-      ],
-      "notes": [],
-      "citationKey": "ghosh_2024_induced",
-      "itemKey": "6MXDD2YU",
-      "libraryID": 1,
-      "select": "zotero://select/library/items/6MXDD2YU"
-    },
-    {
-      "key": "SNMEEXKC",
-      "version": 16541,
+      "version": 20101,
       "itemType": "journalArticle",
       "title": "Pattern formation and evidence of quantum turbulence in binary Bose-Einstein condensates interacting with a pair of Laguerre-Gaussian laser beams",
       "abstractNote": "We theoretically investigate the out-of-equilibrium dynamics in binary Bose-Einstein condensate confined within two-dimensional box potentials. One species of the condensate interacts with a pair of oppositely wound, but otherwise identical Laguerre-Gaussian laser pulses, while the other species is influenced only via the interspecies interaction. Depending on the number of helical windings (or the magnitude of topological charge), the species directly participating in the interaction with lasers is dynamically segmented into distinct parts that collide together as the pulses gradually diminish. This collision event generates nonlinear structures in the related species, coupled with the complementary structures produced in the other species, due to the interspecies interaction. The long-time dynamics of the optically perturbed species is found to develop the Kolmogorov-Saffman scaling law in the incompressible kinetic energy spectrum, a characteristic feature of quantum turbulence. This study warrants the usage of Laguerre-Gaussian beams for future experiments on quantum turbulence in Bose-Einstein condensates.",
@@ -559,42 +466,106 @@
       ],
       "tags": [],
       "relations": {},
-      "inPublications": true,
-      "dateAdded": "2021-11-01T14:09:23Z",
-      "dateModified": "2021-11-01T14:09:23Z",
-      "uri": "http://zotero.org/users/5901476/items/SNMEEXKC",
-      "itemID": 330,
+      "dateAdded": "2025-01-01T07:09:21Z",
+      "dateModified": "2025-01-01T07:09:21Z",
+      "uri": "http://zotero.org/users/5901476/items/2LVAVBM5",
       "attachments": [
         {
           "itemType": "attachment",
           "title": "ghosh_dastidar_et_al_2022_pattern_formation_and_evidence_of_quantum_turbulence_in_binary_bose-einstein.pdf",
           "tags": [],
           "relations": {},
-          "dateAdded": "2023-07-09T15:54:26Z",
-          "dateModified": "2023-07-19T03:57:24Z",
-          "uri": "http://zotero.org/users/5901476/items/CSKDKS8T",
-          "path": "/Users/subrata/Zotero/storage/CSKDKS8T/ghosh_dastidar_et_al_2022_pattern_formation_and_evidence_of_quantum_turbulence_in_binary_bose-einstein.pdf",
-          "select": "zotero://select/library/items/CSKDKS8T"
+          "dateAdded": "2025-01-01T07:09:21Z",
+          "dateModified": "2025-01-01T07:09:22Z",
+          "uri": "http://zotero.org/users/5901476/items/STGQE34Q",
+          "path": "/Users/subrata/Zotero/storage/STGQE34Q/ghosh_dastidar_et_al_2022_pattern_formation_and_evidence_of_quantum_turbulence_in_binary_bose-einstein.pdf",
+          "select": "zotero://select/library/items/STGQE34Q"
         }
       ],
       "notes": [],
-      "citationKey": "ghoshdastidar_2022_pattern",
-      "itemKey": "SNMEEXKC",
+      "citationKey": "ghoshdastidarPatternFormationEvidence2022",
+      "autoJournalAbbreviation": "Phys. Lett. A",
+      "itemID": 177,
+      "itemKey": "2LVAVBM5",
       "libraryID": 1,
-      "select": "zotero://select/library/items/SNMEEXKC"
+      "select": "zotero://select/library/items/2LVAVBM5"
     },
     {
-      "key": "YYM3KZ4P",
-      "version": 16648,
+      "version": 20102,
       "itemType": "journalArticle",
-      "title": "Control of <sup>164</sup>Dy Bose-Einstein condensate phases and dynamics with dipolar anisotropy",
+      "title": "Induced supersolidity and hypersonic flow of a dipolar Bose-Einstein condensate in a rotating bubble trap",
+      "abstractNote": "Motivated by the recent realization of space-borne Bose-Einstein Condensates (BECs) under microgravity conditions, we extend the understanding of ultracold dipolar bosonic gases by exploring their behavior in a novel trapping configuration known as the “bubble trap” topology. Utilizing the three-dimensional numerical simulations within the extended Gross-Pitaevskii framework, we unveil diverse ground-state phases in this static curved topology. Subsequently, we investigate the influence of rotation on a dipolar BEC confined to the surface of a spherical bubble. Our findings reveal that the rotation of a bubble trap at certain rotation frequencies can modify the effective local dipole-dipole interaction strength, leading to the induction of supersolidity and the formation of quantum droplets. In addition, we demonstrate that a bubble trap can sustain high circulation, with the flow persisting for a longer time. Significantly, adjusting the rf detuning parameter allows the condensate to achieve hypersonic velocity. Finally, we also explore the impact of drastic change in the topological nature of the trap on the rotating dipolar BEC, transitioning from a filled shell trap to a bubble trap and vice versa. Based on the results of the topological transition, we propose a dynamic protocol to drive the interacting atomic gas into the quantum Hall regime.",
+      "date": "2024-09-20",
+      "libraryCatalog": "APS",
+      "url": "https://link.aps.org/doi/10.1103/PhysRevA.110.033322",
+      "accessDate": "2024-11-15T20:32:41Z",
+      "rights": "All rights reserved",
+      "extra": "Number: 3\nPublisher: American Physical Society",
+      "volume": "110",
+      "pages": "033322",
+      "publicationTitle": "Physical Review A",
+      "DOI": "10.1103/PhysRevA.110.033322",
+      "issue": "3",
+      "journalAbbreviation": "Phys. Rev. A",
+      "creators": [
+        {
+          "firstName": "Hari Sadhan",
+          "lastName": "Ghosh",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Soumyadeep",
+          "lastName": "Halder",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Subrata",
+          "lastName": "Das",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Sonjoy",
+          "lastName": "Majumder",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2025-01-01T07:15:00Z",
+      "dateModified": "2025-01-01T07:15:00Z",
+      "uri": "http://zotero.org/users/5901476/items/R652REUT",
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "ghosh_et_al_2024_induced_supersolidity_and_hypersonic_flow_of_a_dipolar_bose-einstein_condensate.pdf",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2025-01-01T07:15:00Z",
+          "dateModified": "2025-01-01T07:15:01Z",
+          "uri": "http://zotero.org/users/5901476/items/AFW5IIEY",
+          "path": "/Users/subrata/Zotero/storage/AFW5IIEY/ghosh_et_al_2024_induced_supersolidity_and_hypersonic_flow_of_a_dipolar_bose-einstein_condensate.pdf",
+          "select": "zotero://select/library/items/AFW5IIEY"
+        }
+      ],
+      "notes": [],
+      "citationKey": "ghoshInducedSupersolidityHypersonic2024",
+      "autoJournalAbbreviation": "Phys. Rev. A",
+      "itemID": 827,
+      "itemKey": "R652REUT",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/R652REUT"
+    },
+    {
+      "version": 21312,
+      "itemType": "journalArticle",
+      "title": "Control of $^{164}\\mathrm{Dy}$ {Bose-Einstein} condensate phases and dynamics with dipolar anisotropy",
       "abstractNote": "We investigate the quench dynamics of quasi-one- and two-dimensional dipolar Bose-Einstein condensates of 164Dy atoms under the influence of a fast rotating magnetic field. The magnetic field thus controls both the magnitude and sign of the dipolar potential. We account for quantum fluctuations, critical to formation of exotic quantum droplet and supersolid phases in the extended Gross-Pitaevskii formalism, which includes the so-called Lee-Huang-Yang correction. An analytical variational ansatz allows us to obtain the phase diagrams of the superfluid and droplet phases. The crossover from the superfluid to the supersolid phase and to single and droplet arrays is probed with particle number and dipolar interaction. The dipolar strength is tuned by rotating the magnetic field with subsequent effects on phase boundaries. Following interaction quenches across the aforementioned phases, we monitor the dynamical formation of supersolid clusters or droplet lattices. We include losses due to three-body recombination over the crossover regime, where the three-body recombination rate coefficient scales with the fourth power of the scattering length (as) or the dipole length (add). For fixed values of the dimensionless parameter, εdd=add/as, tuning the dipolar anisotropy leads to an enhancement of the droplet lifetimes.",
       "date": "2022-11-21",
       "libraryCatalog": "APS",
       "url": "https://link.aps.org/doi/10.1103/PhysRevResearch.4.043124",
       "accessDate": "2022-12-21T05:59:12Z",
       "rights": "All rights reserved",
-      "extra": "Publisher: American Physical Society",
+      "extra": "Number: 4\nPublisher: American Physical Society",
       "volume": "4",
       "pages": "043124",
       "publicationTitle": "Physical Review Research",
@@ -648,130 +619,44 @@
           "tag": "#LaTeX"
         }
       ],
-      "relations": {
-        "dc:replaces": [
-          "http://zotero.org/users/5901476/items/RAGMW3ZW"
-        ]
-      },
-      "inPublications": true,
-      "dateAdded": "2022-12-21T05:59:12Z",
-      "dateModified": "2024-06-30T09:22:35Z",
-      "uri": "http://zotero.org/users/5901476/items/YYM3KZ4P",
-      "itemID": 704,
+      "relations": {},
+      "dateAdded": "2025-01-01T07:12:13Z",
+      "dateModified": "2025-01-01T07:12:13Z",
+      "uri": "http://zotero.org/users/5901476/items/P9AL7AWN",
       "attachments": [
         {
           "itemType": "attachment",
           "title": "APS Snapshot",
           "tags": [],
           "relations": {},
-          "dateAdded": "2022-12-21T05:59:25Z",
-          "dateModified": "2022-12-21T05:59:25Z",
-          "uri": "http://zotero.org/users/5901476/items/EGDZLC8V",
-          "path": "/Users/subrata/Zotero/storage/EGDZLC8V/PhysRevResearch.4.html",
-          "select": "zotero://select/library/items/EGDZLC8V"
+          "dateAdded": "2025-01-01T07:12:13Z",
+          "dateModified": "2025-01-01T07:12:13Z",
+          "uri": "http://zotero.org/users/5901476/items/EF29WE9Z",
+          "path": "/Users/subrata/Zotero/storage/EF29WE9Z/PhysRevResearch.4.html",
+          "select": "zotero://select/library/items/EF29WE9Z"
         },
         {
           "itemType": "attachment",
           "title": "halder_et_al_2022_control_of_$^{164}-mathrm{dy}$_bose-einstein_condensate_phases_and_dynamics.pdf",
           "tags": [],
           "relations": {},
-          "dateAdded": "2023-07-09T15:54:25Z",
-          "dateModified": "2023-07-19T03:58:31Z",
-          "uri": "http://zotero.org/users/5901476/items/FWY5LQI3",
-          "path": "/Users/subrata/Zotero/storage/FWY5LQI3/halder_et_al_2022_control_of_$^{164}-mathrm{dy}$_bose-einstein_condensate_phases_and_dynamics.pdf",
-          "select": "zotero://select/library/items/FWY5LQI3"
+          "dateAdded": "2025-01-01T07:12:13Z",
+          "dateModified": "2025-01-01T07:12:14Z",
+          "uri": "http://zotero.org/users/5901476/items/LBHGWX4A",
+          "path": "/Users/subrata/Zotero/storage/LBHGWX4A/halder_et_al_2022_control_of_$^{164}-mathrm{dy}$_bose-einstein_condensate_phases_and_dynamics.pdf",
+          "select": "zotero://select/library/items/LBHGWX4A"
         }
       ],
       "notes": [],
       "citationKey": "halder_2022_control",
-      "itemKey": "YYM3KZ4P",
+      "autoJournalAbbreviation": "Phys. Rev. Res.",
+      "itemID": 20,
+      "itemKey": "P9AL7AWN",
       "libraryID": 1,
-      "select": "zotero://select/library/items/YYM3KZ4P"
+      "select": "zotero://select/library/items/P9AL7AWN"
     },
     {
-      "key": "BFPZIISQ",
-      "version": 16500,
-      "itemType": "journalArticle",
-      "title": "Two-dimensional miscible-immiscible supersolid and droplet crystal state in a homonuclear dipolar bosonic mixture",
-      "abstractNote": "The recent realization of a binary dipolar Bose-Einstein condensate [A. Trautmann et al., Phys. Rev. Lett. 121, 213601 (2018)] presents new exciting aspects for studying quantum droplets and supersolids in a binary mixture. Motivated by this experiment, we study the ground-state phases and dynamics of a Dy-Dy mixture. The dipolar bosonic mixture exhibits qualitatively novel and rich physics. Relying on the three-dimensional numerical simulations in the extended Gross-Pitaevskii framework, we unravel the ground-state phase diagrams and characterize their different possible phases. The emergent phases include single-droplet (SD), multiple-droplets (MD), doubly supersolid (SS), and superfluid (SF) states in both miscible and immiscible phases. Intriguing mixed ground states are observed for an imbalanced binary mixture, including a combination of SS-SF, SS-MD, and SS-SS phases. We also explore the dynamics across the phase boundaries by linear quenches of interspecies and intraspecies scattering lengths. During these dynamical processes, we observe an abrupt change in phase which initially results in some instability in the system and forms some metastable states in the intermediate timescale. However, the state produced in long-time evolution is similar to our predicted ground state. Although we demonstrate the possible results for a Dy-Dy mixture and for a specific parameter range of intraspecies and interspecies scattering lengths, our results are in general valid for other dipolar mixtures and may become an important benchmark for future experimental scenarios.",
-      "date": "2023-06-08",
-      "libraryCatalog": "APS",
-      "url": "https://link.aps.org/doi/10.1103/PhysRevA.107.063303",
-      "accessDate": "2023-06-12T15:29:29Z",
-      "rights": "All rights reserved",
-      "extra": "Publisher: American Physical Society",
-      "volume": "107",
-      "pages": "063303",
-      "publicationTitle": "Physical Review A",
-      "DOI": "10.1103/PhysRevA.107.063303",
-      "issue": "6",
-      "journalAbbreviation": "Phys. Rev. A",
-      "creators": [
-        {
-          "firstName": "Soumyadeep",
-          "lastName": "Halder",
-          "creatorType": "author"
-        },
-        {
-          "firstName": "Subrata",
-          "lastName": "Das",
-          "creatorType": "author"
-        },
-        {
-          "firstName": "Sonjoy",
-          "lastName": "Majumder",
-          "creatorType": "author"
-        }
-      ],
-      "tags": [],
-      "relations": {
-        "dc:replaces": [
-          "http://zotero.org/users/5901476/items/3X9KH5QX",
-          "http://zotero.org/users/5901476/items/P57SFDJU"
-        ]
-      },
-      "inPublications": true,
-      "dateAdded": "2023-06-12T15:29:29Z",
-      "dateModified": "2024-06-26T18:55:19Z",
-      "uri": "http://zotero.org/users/5901476/items/BFPZIISQ",
-      "itemID": 696,
-      "attachments": [
-        {
-          "itemType": "attachment",
-          "title": "APS Snapshot",
-          "tags": [],
-          "relations": {},
-          "dateAdded": "2023-06-12T15:29:36Z",
-          "dateModified": "2023-06-12T15:29:36Z",
-          "uri": "http://zotero.org/users/5901476/items/V5RD6IDR",
-          "path": "/Users/subrata/Zotero/storage/V5RD6IDR/PhysRevA.107.html",
-          "select": "zotero://select/library/items/V5RD6IDR"
-        },
-        {
-          "itemType": "attachment",
-          "title": "halder_et_al_2023_two-dimensional_miscible-immiscible_supersolid_and_droplet_crystal_state_in_a.pdf",
-          "tags": [],
-          "relations": {
-            "dc:replaces": [
-              "http://zotero.org/users/5901476/items/7RD8F7AJ"
-            ]
-          },
-          "dateAdded": "2023-07-09T15:54:07Z",
-          "dateModified": "2024-06-17T17:04:48Z",
-          "uri": "http://zotero.org/users/5901476/items/A5U749GM",
-          "path": "/Users/subrata/Zotero/storage/A5U749GM/halder_et_al_2023_two-dimensional_miscible-immiscible_supersolid_and_droplet_crystal_state_in_a.pdf",
-          "select": "zotero://select/library/items/A5U749GM"
-        }
-      ],
-      "notes": [],
-      "citationKey": "halder_2023_twodimensional",
-      "itemKey": "BFPZIISQ",
-      "libraryID": 1,
-      "select": "zotero://select/library/items/BFPZIISQ"
-    },
-    {
-      "key": "36S8S7YM",
-      "version": 16892,
+      "version": 20101,
       "itemType": "journalArticle",
       "title": "Induced supersolidity in a Dy-Er mixture",
       "abstractNote": "The recent experimental realization of the heteronuclear dipolar mixture of Dy and Er atoms opens fascinating prospects for creating intriguing novel phases in dipolar quantum gases. The experimentally measured value of intraspecies 𝑠-wave scattering length of 166Er condensate in a 164Dy−166Er mixture is larger than its intraspecies dipolar length implies that the 166Er condensate itself will not be in a regime of dominated dipole-dipole interaction (DDI). However, we find that the presence of 164Dy atoms with high magnetic moment induces droplet nucleation and supersolidity in the 166Er condensate via the long-range and anisotropic interspecies DDI. Remarkably, we find that the imbalance in the magnetic dipole moment combined with its strong anisotropic coupling leads to the emergence of unique ground-state phases. The emerging phases include doubly superfluid states, a mixture of insulating droplets and supersolid states, binary supersolids with uniform and alternating domains and a combination of supersolid-superfluid mixed states. We delineate the properties of all these ground-state phases and construct a phase diagram. We also explore the dynamical evolution across these phase boundaries via a linear quench of interspecies scattering length. Although we demonstrate the result for the 164Dy−166Er mixture, our results are generally valid for other dipolar bosonic mixtures of different Dy-Er isotope combinations and may become an important benchmark for future experimental scenarios.",
@@ -780,7 +665,7 @@
       "url": "https://link.aps.org/doi/10.1103/PhysRevA.109.063321",
       "accessDate": "2024-06-17T18:08:49Z",
       "rights": "All rights reserved",
-      "extra": "Publisher: American Physical Society",
+      "extra": "Number: 6\nPublisher: American Physical Society",
       "volume": "109",
       "pages": "063321",
       "publicationTitle": "Physical Review A",
@@ -805,38 +690,104 @@
         }
       ],
       "tags": [],
-      "relations": {
-        "dc:replaces": [
-          "http://zotero.org/users/5901476/items/83AHDNQW"
-        ]
-      },
-      "inPublications": true,
-      "dateAdded": "2024-06-17T18:08:49Z",
-      "dateModified": "2024-06-26T18:54:52Z",
-      "uri": "http://zotero.org/users/5901476/items/36S8S7YM",
-      "itemID": 2324,
+      "relations": {},
+      "dateAdded": "2025-01-01T07:13:56Z",
+      "dateModified": "2025-01-01T07:13:56Z",
+      "uri": "http://zotero.org/users/5901476/items/J2HLEYFI",
       "attachments": [
         {
           "itemType": "attachment",
           "title": "halder_et_al_2024_induced_supersolidity_in_a_dy-er_mixture.pdf",
           "tags": [],
           "relations": {},
-          "dateAdded": "2024-06-17T18:08:52Z",
-          "dateModified": "2024-06-17T18:08:53Z",
-          "uri": "http://zotero.org/users/5901476/items/T6NJ6R9C",
-          "path": "/Users/subrata/Zotero/storage/T6NJ6R9C/halder_et_al_2024_induced_supersolidity_in_a_dy-er_mixture.pdf",
-          "select": "zotero://select/library/items/T6NJ6R9C"
+          "dateAdded": "2025-01-01T07:13:56Z",
+          "dateModified": "2025-01-01T07:13:56Z",
+          "uri": "http://zotero.org/users/5901476/items/CPWGI3X7",
+          "path": "/Users/subrata/Zotero/storage/CPWGI3X7/halder_et_al_2024_induced_supersolidity_in_a_dy-er_mixture.pdf",
+          "select": "zotero://select/library/items/CPWGI3X7"
         }
       ],
       "notes": [],
-      "citationKey": "halder_2024_induced",
-      "itemKey": "36S8S7YM",
+      "citationKey": "halderInducedSupersolidityDyEr2024",
+      "autoJournalAbbreviation": "Phys. Rev. A",
+      "itemID": 735,
+      "itemKey": "J2HLEYFI",
       "libraryID": 1,
-      "select": "zotero://select/library/items/36S8S7YM"
+      "select": "zotero://select/library/items/J2HLEYFI"
     },
     {
-      "key": "TXM3R2KM",
-      "version": 5772,
+      "version": 20101,
+      "itemType": "journalArticle",
+      "title": "Two-dimensional miscible-immiscible supersolid and droplet crystal state in a homonuclear dipolar bosonic mixture",
+      "abstractNote": "The recent realization of a binary dipolar Bose-Einstein condensate [A. Trautmann et al., Phys. Rev. Lett. 121, 213601 (2018)] presents new exciting aspects for studying quantum droplets and supersolids in a binary mixture. Motivated by this experiment, we study the ground-state phases and dynamics of a Dy-Dy mixture. The dipolar bosonic mixture exhibits qualitatively novel and rich physics. Relying on the three-dimensional numerical simulations in the extended Gross-Pitaevskii framework, we unravel the ground-state phase diagrams and characterize their different possible phases. The emergent phases include single-droplet (SD), multiple-droplets (MD), doubly supersolid (SS), and superfluid (SF) states in both miscible and immiscible phases. Intriguing mixed ground states are observed for an imbalanced binary mixture, including a combination of SS-SF, SS-MD, and SS-SS phases. We also explore the dynamics across the phase boundaries by linear quenches of interspecies and intraspecies scattering lengths. During these dynamical processes, we observe an abrupt change in phase which initially results in some instability in the system and forms some metastable states in the intermediate timescale. However, the state produced in long-time evolution is similar to our predicted ground state. Although we demonstrate the possible results for a Dy-Dy mixture and for a specific parameter range of intraspecies and interspecies scattering lengths, our results are in general valid for other dipolar mixtures and may become an important benchmark for future experimental scenarios.",
+      "date": "2023-06-08",
+      "libraryCatalog": "APS",
+      "url": "https://link.aps.org/doi/10.1103/PhysRevA.107.063303",
+      "accessDate": "2023-06-12T15:29:29Z",
+      "rights": "All rights reserved",
+      "extra": "Number: 6\nPublisher: American Physical Society",
+      "volume": "107",
+      "pages": "063303",
+      "publicationTitle": "Physical Review A",
+      "DOI": "10.1103/PhysRevA.107.063303",
+      "issue": "6",
+      "journalAbbreviation": "Phys. Rev. A",
+      "creators": [
+        {
+          "firstName": "Soumyadeep",
+          "lastName": "Halder",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Subrata",
+          "lastName": "Das",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Sonjoy",
+          "lastName": "Majumder",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2025-01-01T07:12:10Z",
+      "dateModified": "2025-01-01T07:12:10Z",
+      "uri": "http://zotero.org/users/5901476/items/N4YT82RT",
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "APS Snapshot",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2025-01-01T07:12:10Z",
+          "dateModified": "2025-01-01T07:12:10Z",
+          "uri": "http://zotero.org/users/5901476/items/MKC7WGRG",
+          "path": "/Users/subrata/Zotero/storage/MKC7WGRG/PhysRevA.107.html",
+          "select": "zotero://select/library/items/MKC7WGRG"
+        },
+        {
+          "itemType": "attachment",
+          "title": "halder_et_al_2023_two-dimensional_miscible-immiscible_supersolid_and_droplet_crystal_state_in_a.pdf",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2025-01-01T07:12:10Z",
+          "dateModified": "2025-01-01T07:12:10Z",
+          "uri": "http://zotero.org/users/5901476/items/9XG7JQMJ",
+          "path": "/Users/subrata/Zotero/storage/9XG7JQMJ/halder_et_al_2023_two-dimensional_miscible-immiscible_supersolid_and_droplet_crystal_state_in_a.pdf",
+          "select": "zotero://select/library/items/9XG7JQMJ"
+        }
+      ],
+      "notes": [],
+      "citationKey": "halderTwodimensionalMiscibleimmiscibleSupersolid2023",
+      "autoJournalAbbreviation": "Phys. Rev. A",
+      "itemID": 27,
+      "itemKey": "N4YT82RT",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/N4YT82RT"
+    },
+    {
+      "version": 21564,
       "itemType": "journalArticle",
       "title": "Parametrically excited star-shaped patterns at the interface of binary Bose-Einstein condensates",
       "date": "2020-9-14",
@@ -845,6 +796,7 @@
       "url": "https://link.aps.org/doi/10.1103/PhysRevA.102.033320",
       "accessDate": "2021-10-02T14:55:33Z",
       "rights": "All rights reserved",
+      "extra": "Number: 3",
       "volume": "102",
       "pages": "033320",
       "publicationTitle": "Physical Review A",
@@ -890,51 +842,53 @@
         }
       ],
       "tags": [],
-      "relations": {
-        "dc:replaces": [
-          "http://zotero.org/users/5901476/items/5K9F6BVD",
-          "http://zotero.org/users/5901476/items/B77RZLE2",
-          "http://zotero.org/users/5901476/items/BUI3U3B8"
-        ]
-      },
-      "inPublications": true,
-      "dateAdded": "2021-10-02T14:55:34Z",
-      "dateModified": "2022-07-05T17:51:27Z",
-      "uri": "http://zotero.org/users/5901476/items/TXM3R2KM",
-      "itemID": 542,
+      "relations": {},
+      "dateAdded": "2025-01-01T07:11:27Z",
+      "dateModified": "2025-01-01T07:11:27Z",
+      "uri": "http://zotero.org/users/5901476/items/UNDVNYYA",
       "attachments": [
         {
+          "version": 21564,
           "itemType": "attachment",
           "title": "APS Snapshot",
+          "url": "https://journals.aps.org/pra/abstract/10.1103/PhysRevA.102.033320",
+          "accessDate": "2022-01-31T13:13:58Z",
+          "parentItem": "UNDVNYYA",
+          "linkMode": "linked_url",
+          "contentType": "text/html",
+          "charset": "",
           "tags": [],
           "relations": {},
-          "dateAdded": "2022-01-31T13:13:58Z",
-          "dateModified": "2022-05-02T05:21:52Z",
-          "uri": "http://zotero.org/users/5901476/items/5KV4IM33",
-          "path": "/Users/subrata/Zotero/storage/5KV4IM33/PhysRevA.102.html",
-          "select": "zotero://select/library/items/5KV4IM33"
+          "inPublications": true,
+          "dateAdded": "2025-01-01T07:11:27Z",
+          "dateModified": "2025-01-01T07:11:27Z",
+          "uri": "http://zotero.org/users/5901476/items/IJM6GBV2",
+          "itemID": 1140,
+          "itemKey": "IJM6GBV2",
+          "libraryID": 1
         },
         {
           "itemType": "attachment",
           "title": "maity_et_al_2020_parametrically_excited_star-shaped_patterns_at_the_interface_of_binary.pdf",
           "tags": [],
           "relations": {},
-          "dateAdded": "2023-07-09T15:55:39Z",
-          "dateModified": "2023-07-19T03:57:17Z",
-          "uri": "http://zotero.org/users/5901476/items/R9VIESVH",
-          "path": "/Users/subrata/Zotero/storage/R9VIESVH/maity_et_al_2020_parametrically_excited_star-shaped_patterns_at_the_interface_of_binary.pdf",
-          "select": "zotero://select/library/items/R9VIESVH"
+          "dateAdded": "2025-01-01T07:11:27Z",
+          "dateModified": "2025-01-01T07:11:27Z",
+          "uri": "http://zotero.org/users/5901476/items/6K2S7H5T",
+          "path": "/Users/subrata/Zotero/storage/6K2S7H5T/maity_et_al_2020_parametrically_excited_star-shaped_patterns_at_the_interface_of_binary.pdf",
+          "select": "zotero://select/library/items/6K2S7H5T"
         }
       ],
       "notes": [],
       "citationKey": "maity_2020_parametrically",
-      "itemKey": "TXM3R2KM",
+      "autoJournalAbbreviation": "Phys. Rev. A",
+      "itemID": 572,
+      "itemKey": "UNDVNYYA",
       "libraryID": 1,
-      "select": "zotero://select/library/items/TXM3R2KM"
+      "select": "zotero://select/library/items/UNDVNYYA"
     },
     {
-      "key": "XSFEGRYD",
-      "version": 11736,
+      "version": 20101,
       "itemType": "journalArticle",
       "title": "Rayleigh-Taylor instability in a phase-separated three-component Bose-Einstein condensate",
       "abstractNote": "Three-component Bose-Einstein condensates (BECs) offer a rich platform for exploring inquisitive quantum phenomena. We investigate the Rayleigh-Taylor instability at the two interfaces in a phase-separated three-component BEC in the mean-field framework. The instability in the system can be instigated in various ways owing to the versatility of the three-component system and the subsequent dynamics for certain cases has been studied in detail. We also study the impact of immiscibility of the intermediate component on the onset of instability in the system. The rotational symmetry of the system breaks when the atom-atom interaction is tuned in such a way that the interface between the components becomes unstable giving rise to nonlinear patterns of mushroom shapes which grow exponentially with time. We identify these nonlinear patterns as the solutions of the angular Mathieu equation, representing the normal modes.",
@@ -943,7 +897,7 @@
       "url": "https://link.aps.org/doi/10.1103/PhysRevA.108.013320",
       "accessDate": "2023-08-02T15:15:24Z",
       "rights": "All rights reserved",
-      "extra": "Publisher: American Physical Society",
+      "extra": "Number: 1\nPublisher: American Physical Society",
       "volume": "108",
       "pages": "013320",
       "publicationTitle": "Physical Review A",
@@ -974,44 +928,43 @@
       ],
       "tags": [],
       "relations": {},
-      "inPublications": true,
-      "dateAdded": "2023-08-02T15:15:24Z",
-      "dateModified": "2023-08-02T15:15:51Z",
-      "uri": "http://zotero.org/users/5901476/items/XSFEGRYD",
-      "itemID": 1829,
+      "dateAdded": "2025-01-01T07:12:37Z",
+      "dateModified": "2025-01-01T07:12:37Z",
+      "uri": "http://zotero.org/users/5901476/items/R8QHY7ML",
       "attachments": [
         {
           "itemType": "attachment",
           "title": "APS Snapshot",
           "tags": [],
           "relations": {},
-          "dateAdded": "2023-08-02T15:15:33Z",
-          "dateModified": "2023-08-02T15:15:33Z",
-          "uri": "http://zotero.org/users/5901476/items/UEI2VBUJ",
-          "path": "/Users/subrata/Zotero/storage/UEI2VBUJ/PhysRevA.108.html",
-          "select": "zotero://select/library/items/UEI2VBUJ"
+          "dateAdded": "2025-01-01T07:12:37Z",
+          "dateModified": "2025-01-01T07:12:37Z",
+          "uri": "http://zotero.org/users/5901476/items/FVYC4LZH",
+          "path": "/Users/subrata/Zotero/storage/FVYC4LZH/PhysRevA.108.html",
+          "select": "zotero://select/library/items/FVYC4LZH"
         },
         {
           "itemType": "attachment",
           "title": "saboo_et_al_2023_rayleigh-taylor_instability_in_a_phase-separated_three-component_bose-einstein.pdf",
           "tags": [],
           "relations": {},
-          "dateAdded": "2023-08-02T15:15:26Z",
-          "dateModified": "2023-08-02T15:15:26Z",
-          "uri": "http://zotero.org/users/5901476/items/22UNMMHV",
-          "path": "/Users/subrata/Zotero/storage/22UNMMHV/saboo_et_al_2023_rayleigh-taylor_instability_in_a_phase-separated_three-component_bose-einstein.pdf",
-          "select": "zotero://select/library/items/22UNMMHV"
+          "dateAdded": "2025-01-01T07:12:37Z",
+          "dateModified": "2025-01-01T07:12:37Z",
+          "uri": "http://zotero.org/users/5901476/items/FI4M3FMN",
+          "path": "/Users/subrata/Zotero/storage/FI4M3FMN/saboo_et_al_2023_rayleigh-taylor_instability_in_a_phase-separated_three-component_bose-einstein.pdf",
+          "select": "zotero://select/library/items/FI4M3FMN"
         }
       ],
       "notes": [],
-      "citationKey": "saboo_2023_rayleightaylor",
-      "itemKey": "XSFEGRYD",
+      "citationKey": "sabooRayleighTaylorInstabilityPhaseseparated2023",
+      "autoJournalAbbreviation": "Phys. Rev. A",
+      "itemID": 964,
+      "itemKey": "R8QHY7ML",
       "libraryID": 1,
-      "select": "zotero://select/library/items/XSFEGRYD"
+      "select": "zotero://select/library/items/R8QHY7ML"
     },
     {
-      "key": "IXQQ9I2T",
-      "version": 18362,
+      "version": 20102,
       "itemType": "journalArticle",
       "title": "Sinusoidal-magnetic-field-induced topological excitations in a spin-orbit-coupled spinor condensate",
       "abstractNote": "We explore topological excitations in a spin-1 Bose-Einstein condensate subjected to an in-plane sinusoidally varying magnetic field and Rashba spin-orbit coupling (SOC). In the absence of SOC, the periodic magnetic field induces vortex-antivortex structures in the |𝐹=1,𝑚𝐹=±1⟩ condensates at saddle points such that the net topological charge remains zero. The introduction of Rashba SOC breaks the system's symmetry, leading to nonconservation of overall angular momentum in the spin-1 condensate. This anisotropy results in the emergence of certain skyrmion spin textures. We provide a comparative study for various in-plane magnetic-field configurations while keeping the SOC strength constant. Our numerical simulations within the mean-field framework reveal the potential to engineer diverse topological excitations controlled by the interplay between the spin-orbit coupling and in-plane magnetic field in a spinor condensate.",
@@ -1020,7 +973,7 @@
       "url": "https://link.aps.org/doi/10.1103/PhysRevA.110.033325",
       "accessDate": "2024-11-30T22:19:19Z",
       "rights": "All rights reserved",
-      "extra": "Publisher: American Physical Society",
+      "extra": "Number: 3\nPublisher: American Physical Society",
       "volume": "110",
       "pages": "033325",
       "publicationTitle": "Physical Review A",
@@ -1051,40 +1004,151 @@
       ],
       "tags": [],
       "relations": {},
-      "inPublications": true,
-      "dateAdded": "2024-11-30T22:19:19Z",
-      "dateModified": "2024-11-30T22:19:19Z",
-      "uri": "http://zotero.org/users/5901476/items/IXQQ9I2T",
-      "itemID": 2758,
+      "dateAdded": "2025-01-01T07:15:07Z",
+      "dateModified": "2025-01-01T07:15:07Z",
+      "uri": "http://zotero.org/users/5901476/items/ARNBCSHG",
       "attachments": [
         {
           "itemType": "attachment",
           "title": "APS Snapshot",
           "tags": [],
           "relations": {},
-          "dateAdded": "2024-11-30T22:19:29Z",
-          "dateModified": "2024-11-30T22:19:29Z",
-          "uri": "http://zotero.org/users/5901476/items/86QL9EBN",
-          "path": "/Users/subrata/Zotero/storage/86QL9EBN/PhysRevA.110.html",
-          "select": "zotero://select/library/items/86QL9EBN"
+          "dateAdded": "2025-01-01T07:15:07Z",
+          "dateModified": "2025-01-01T07:15:07Z",
+          "uri": "http://zotero.org/users/5901476/items/IBAQRLJQ",
+          "path": "/Users/subrata/Zotero/storage/IBAQRLJQ/PhysRevA.110.html",
+          "select": "zotero://select/library/items/IBAQRLJQ"
         },
         {
           "itemType": "attachment",
           "title": "saboo_et_al_2024_sinusoidal-magnetic-field-induced_topological_excitations_in_a.pdf",
           "tags": [],
           "relations": {},
-          "dateAdded": "2024-11-30T22:19:23Z",
-          "dateModified": "2024-11-30T22:19:23Z",
-          "uri": "http://zotero.org/users/5901476/items/MIE4E9JN",
-          "path": "/Users/subrata/Zotero/storage/MIE4E9JN/saboo_et_al_2024_sinusoidal-magnetic-field-induced_topological_excitations_in_a.pdf",
-          "select": "zotero://select/library/items/MIE4E9JN"
+          "dateAdded": "2025-01-01T07:15:07Z",
+          "dateModified": "2025-01-01T07:15:09Z",
+          "uri": "http://zotero.org/users/5901476/items/3DH25HNX",
+          "path": "/Users/subrata/Zotero/storage/3DH25HNX/saboo_et_al_2024_sinusoidal-magnetic-field-induced_topological_excitations_in_a.pdf",
+          "select": "zotero://select/library/items/3DH25HNX"
         }
       ],
       "notes": [],
-      "citationKey": "saboo_2024_sinusoidalmagneticfieldinduced",
-      "itemKey": "IXQQ9I2T",
+      "citationKey": "sabooSinusoidalmagneticfieldinducedTopologicalExcitations2024",
+      "autoJournalAbbreviation": "Phys. Rev. A",
+      "itemID": 822,
+      "itemKey": "ARNBCSHG",
       "libraryID": 1,
-      "select": "zotero://select/library/items/IXQQ9I2T"
+      "select": "zotero://select/library/items/ARNBCSHG"
+    },
+    {
+      "version": 20102,
+      "itemType": "conferencePaper",
+      "title": "Spin-Orbit Coupled Rotating Spin-1 Bose-Einstein Condensates Under the Influence of External Magnetic Field",
+      "abstractNote": "We investigate the topological excitations in the ground state of a spin-orbit (SO) coupled rotating spin-1 ferromagnetic Bose-Einstein condensate (BEC) under the influence of externally applied magnetic field. We numerically solve the Gross-Pitaevskii equation to study the ground state of these cases of SO coupled BEC with and without rotation considering different choices of magnetic fields to depict the competition between interatomic interaction, Rashba SO coupling, rotation and magnetic field. For a non-rotating spin-1 BEC without magnetic field, we observe a state with (0,+1,+2) type vortex at the centre, where the number in the parenthesis represents the vortex charge. For the rotating case, we observe that the vortices are arranged in exotic vortex structures owing to the choice of magnetic field applied - (a) along $$z-$$z-direction, (b) in $$x-y$$x-yplane. These exotic structures include vortex-lattices, vortex-pair, vortex dipole, ghost vortices owing to different cases.",
+      "date": "2024",
+      "language": "en",
+      "libraryCatalog": "Springer Link",
+      "rights": "All rights reserved",
+      "place": "Cham",
+      "publisher": "Springer Nature Switzerland",
+      "ISBN": "978-3-031-66874-6",
+      "pages": "308-317",
+      "series": "Springer Proceedings in Physics, vol 405",
+      "DOI": "10.1007/978-3-031-66874-6_25",
+      "creators": [
+        {
+          "firstName": "Arpana",
+          "lastName": "Saboo",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Subrata",
+          "lastName": "Das",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Soumyadeep",
+          "lastName": "Halder",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Sonjoy",
+          "lastName": "Majumder",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Asit",
+          "lastName": "Saha",
+          "creatorType": "editor"
+        },
+        {
+          "firstName": "Santo",
+          "lastName": "Banerjee",
+          "creatorType": "editor"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "Gross-Pitaevskii equation",
+          "type": 1
+        },
+        {
+          "tag": "axial magnetic field",
+          "type": 1
+        },
+        {
+          "tag": "exotic vortex lattices",
+          "type": 1
+        },
+        {
+          "tag": "ghost vortex",
+          "type": 1
+        },
+        {
+          "tag": "in-plane magnetic field",
+          "type": 1
+        },
+        {
+          "tag": "spinor F=1F=1 condensate",
+          "type": 1
+        },
+        {
+          "tag": "SU(2) SO-coupling",
+          "type": 1
+        },
+        {
+          "tag": "topological excitation",
+          "type": 1
+        },
+        {
+          "tag": "trap rotation",
+          "type": 1
+        }
+      ],
+      "relations": {},
+      "dateAdded": "2025-01-01T07:14:46Z",
+      "dateModified": "2025-01-01T07:14:46Z",
+      "uri": "http://zotero.org/users/5901476/items/7T9NG9F4",
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "saboo_et_al_2024_spin-orbit_coupled_rotating_spin-1_bose-einstein_condensates_under.pdf",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2025-01-01T07:14:46Z",
+          "dateModified": "2025-01-01T07:14:47Z",
+          "uri": "http://zotero.org/users/5901476/items/WS49IC6Q",
+          "path": "/Users/subrata/Zotero/storage/WS49IC6Q/saboo_et_al_2024_spin-orbit_coupled_rotating_spin-1_bose-einstein_condensates_under.pdf",
+          "select": "zotero://select/library/items/WS49IC6Q"
+        }
+      ],
+      "notes": [],
+      "citationKey": "sabooSpinOrbitCoupledRotating2024",
+      "autoJournalAbbreviation": "Proc. 2nd Int. Conf. Nonlinear Dyn. Appl. ICNDA 2024 Vol. 1",
+      "itemID": 845,
+      "itemKey": "7T9NG9F4",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/7T9NG9F4",
+      "publicationTitle": "Proceedings of the 2nd International Conference on Nonlinear Dynamics and Applications (ICNDA 2024), Volume 1"
     }
   ]
 }
